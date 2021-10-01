@@ -25,7 +25,6 @@ def function2():
 
     plt.plot(x, y, "red")
     plt.grid()
-    # ax[i].set_title(f"Частота {hz[i]} Hz, Амплитуда равна {a[i]}")
     plt.title(f"Амплитуда {a}, Центр импульса {t}, Ширина импульса {wd}")
 
     plt.show()
